@@ -50,19 +50,19 @@ Berikut adalah tree yg didapat
 Proses routing dapat dilakukan dengan mengkonfigurasi :
 - _router_ - bagian Routing
 
-Sebagai contoh kita akan proses routing dari aura ke subnet a18 yaitu hubungin dari aura ke host ApetitRegion dalam prosesnya itu kan dari aura kita bakal lewat banyak router. Anggep aja gini sebelum mau ke a18 kita juga bakal lewat a16 a17 nah kita set semua di Aura
+- Sebagai contoh kita akan proses routing dari aura ke subnet a18 yaitu hubungin dari aura ke host ApetitRegion dalam prosesnya itu kan dari aura kita bakal lewat banyak router. Anggep aja gini sebelum mau ke a18 kita juga bakal lewat a16 a17 nah kita set semua di Aura
 ![Alt text](image-5.png)
-Namun proses itu belum selesai kita juga perlu set a17 a18 di  frieren
+- Namun proses itu belum selesai kita juga perlu set a17 a18 di  frieren
 ![Alt text](image-6.png)
-Dan berlaku juga set 18 di flamme
+- Dan berlaku juga set 18 di flamme
 ![Alt text](image-7.png)
-Untuk menentukan next-hop, next-hop sendiri adalah bagian yg terhubung secara langsung misal pada aura ada di Fa0/0
+- Untuk menentukan next-hop, next-hop sendiri adalah bagian yg terhubung secara langsung misal pada aura ada di Fa0/0
 ![Alt text](image-8.png)
 ![Alt text](image-9.png)
-nah untuk yg 0.0.0.0 itu teori dibalik jadi di fern kita is 0.0.0.0 ke address flamme
+- nah untuk yg 0.0.0.0 itu teori dibalik jadi di fern kita is 0.0.0.0 ke address flamme
 ![Alt text](image-10.png)
-di flamme 0.0.0.0 ke address frieren
+- di flamme 0.0.0.0 ke address frieren
 ![Alt text](image-11.png)
-dan di frieren kita isi 0.0.0.0 ke adress aura
+- dan di frieren kita isi 0.0.0.0 ke adress aura
 ![Alt text](image-12.png)
-kalau misal mau ke a21 tinggal nambah config a21 dan a20 pada masing masing router kecuali a20 Flamme karena udh kehubung dan jangan lupa 0.0.0.0 ke di himmel ke arah flamme. Cara routing itu berlaku untuk semua.
+- Kalau misal mau ke a21 tinggal nambah config a21 dan a20 pada masing masing router kecuali a20 Flamme karena udh kehubung dan jangan lupa 0.0.0.0 ke di himmel ke arah flamme. Cara routing itu berlaku untuk semua.
