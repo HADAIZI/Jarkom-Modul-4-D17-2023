@@ -65,5 +65,4 @@ di flamme 0.0.0.0 ke address frieren
 ![Alt text](image-11.png)
 dan di frieren kita isi 0.0.0.0 ke adress aura
 ![Alt text](image-12.png)
-kalau misal mau ke a21 tinggal nambah config a21 dan a20 pada masing masing router kecuali a20 Flamme karena udh kehubung dan jangan lupa 0.0.0.0 ke di himmel ke arah flamme
-cara itu berlaku untuk semua
+kalau misal mau ke a21 tinggal nambah config a21 dan a20 pada masing masing router kecuali a20 Flamme karena udh kehubung dan jangan lupa 0.0.0.0 ke di himmel ke arah flamme. Cara routing itu berlaku untuk semua.
